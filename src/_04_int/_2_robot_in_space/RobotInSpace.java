@@ -18,6 +18,7 @@ public class RobotInSpace implements KeyEventDispatcher {
 
 	Robot rob = new Robot("mini");
 
+	
 	/*
 	 * Make the Robot move around the screen when the arrow keys are pressed...
 	 * 
@@ -30,7 +31,7 @@ public class RobotInSpace implements KeyEventDispatcher {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
 		
-		
+		System.out.print(keyPressed);
 		// 3. If the up arrow is pressed, move the Robot up the screen.
        if(keyPressed==38) {
     	  rob.setAngle(360);
@@ -51,6 +52,8 @@ if(keyPressed==39) {
 	rob.setAngle(90);
 	rob.microMove(1);
 }
+
+
 		// 7. Run your program and move the Robot to R2-D2 for a surprise!
 	}
 
@@ -64,7 +67,10 @@ if(keyPressed==39) {
 
 	public static void main(String[] args) {
 		new RobotInSpace().controlTheRobot();
+	
 	}
+
+	
 
 	private void controlTheRobot() {
 		KeyboardFocusManager.getCurrentKeyboardFocusManager().addKeyEventDispatcher(this);
