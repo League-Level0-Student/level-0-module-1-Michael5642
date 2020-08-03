@@ -19,7 +19,7 @@ void draw() {
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
     fill(225,225,225);
-     ellipse(50,50,100,100);
+     ellipse(75,75,150,150);
      fill(255,255,255);
      
 if(mousePressed){
