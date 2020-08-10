@@ -3,7 +3,7 @@ package _03_if_else._3_secret_message_box;
 //    Level 0
 
 
-import java.util.Random;
+
 
 import javax.swing.JOptionPane;
 
@@ -35,13 +35,11 @@ public class SecretMessageBox {
     else {
     	JOptionPane.showMessageDialog(null, "INTRUDER!!");
     }
-    int x = Random(50);
+   
     
     
 }
 
-	
-	}
-	
-	
 }
+	
+	

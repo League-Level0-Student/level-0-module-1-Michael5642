@@ -10,6 +10,7 @@ void draw() {
     fill(200,0,0);
     ellipse(250,250,225,225);
     //pepperonis
+  for (int i = 0;i < 1; i = i++){
     fill(100,0,0);
     float xRandom1 = random(151);
     float xRandom2 = random(151);
@@ -36,7 +37,7 @@ void draw() {
     ellipse(xRandom2,yRandom2,20,20);
     ellipse(xRandom3,yRandom3,20,20);
     ellipse(xRandom4,yRandom4,20,20);
-    
+  }    
     
     
 }
